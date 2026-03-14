@@ -389,7 +389,7 @@ function Header({ dm, setDm }) {
           </button>
         </div>
         <h1 style={{fontSize:22,fontWeight:900,color:T.textPri,fontFamily:"Nunito",lineHeight:1.2,margin:0}}>
-          HydroWalk 💧🚶
+          StepFit 🌊🚶
         </h1>
       </div>
       {/* Clock card */}
@@ -460,7 +460,7 @@ function HydrationSection({ consumed, setConsumed, settings, onOpenSettings }) {
           display:"flex",alignItems:"center",justifyContent:"center"}}>
           <WaterDropIcon size={18}/>
         </div>
-        <h2 style={{fontSize:18,fontWeight:800,color:"inherit",fontFamily:"Nunito",margin:0}}>Water Reminder 💧</h2>
+        <h2 style={{fontSize:18,fontWeight:800,color:"inherit",fontFamily:"Nunito",margin:0}}>Water Reminder 🫗</h2>
       </div>
       <div style={{background:"linear-gradient(150deg,#1d4ed8 0%,#4338ca 60%,#6d28d9 100%)",
         borderRadius:24,padding:24,boxShadow:"0 12px 40px rgba(29,78,216,.35)",position:"relative",overflow:"hidden"}}>
@@ -1107,7 +1107,10 @@ function InstallPWA({ dm }) {
         <div style={{background:dm?"rgba(251,191,36,.15)":"rgba(251,191,36,.2)",borderRadius:12,
           padding:"10px 12px",marginBottom:12,fontSize:12,fontFamily:"Nunito",
           color:dm?"#fbbf24":"#92400e",fontWeight:700}}>
-          ℹ️ Install prompt not available. Open in Chrome on Android, or Safari on iOS → Share → Add to Home Screen.
+         To install this app on your phone:                   
+
+         📱Android: Open in Chrome → Tap Menu (⋮) → Add to Home Screen  
+         📲iPhone: Open in Safari → Share → Add to Home Screen📶
         </div>
       )}
 
